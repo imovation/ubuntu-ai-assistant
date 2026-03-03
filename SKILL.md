@@ -29,13 +29,11 @@ sudo apt install -y curl git vim htop build-essential
 ## 2. AI 开发工具 (OpenCode/OpenClaw)
 ...
 ## 3. 进化铁律 (Dynamic Evolution Loop)
-本 Skill 的更新严格遵循以下闭环：
-1. **感知**: 发现问题。
-2. **解决**: 提供方案并执行。
-3. **验证**: (关键) 等待用户反馈验证结果。
-4. **询问**: 验证通过后，询问用户是否合入 Skill。
+...
 5. **部署**: 仅在用户授权后运行 `scripts/deploy_skill.sh`。
 6. **归档**: 每次进化必须标注解决问题的 AI 模型名称，并同步至 GitHub。
+7. **严禁瞎猜**: 若不理解描述或存在歧义，必须明确后再执行。
+
 
 ## 4. 进化记录 (Evolution History)
 - **[2024-03-03] RDP 图片粘贴修复**
